@@ -77,7 +77,7 @@ public class Application {
 		//deleteById
 		/*empRepository.deleteById(101);
 		*/
-	
+	system.out.println("Hello dipak");
 	List<Employee> findByEmpName = empRepository.findByEmpName("dipak");
 	System.out.println(findByEmpName);
 	
